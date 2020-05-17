@@ -1,0 +1,289 @@
+body {
+    background-image: url("background.png");
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 0px;
+    display: block;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+#hintergrund {
+    background-color: rgb(241, 160, 37);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: auto;
+    float: center;
+    padding: 0px 10px 150px 10px;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#hintergrund2 {
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: auto;
+    float: center;
+    padding: 20px 10px 75px 10px;
+    border-radius: 0px 0px 250px 250px;
+    margin-top: 20px;
+    top: 0px;
+}
+
+#navigationsbalken {
+    background-color: black;
+    position: fixed;
+    list-style-type: none;
+    font-size: 10px;
+    width: 200px;
+    height: 15px;
+    margin-top: 0px;
+    padding: 5px;
+    top: 0px;
+    right: 15%;
+}
+
+#navigationsbalken a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+#navigationsbalken a.aktiveseite {
+    color: rgb(241, 160, 37);
+}
+
+#navigationsbalken a:hover {
+    /* färbt Verlinkungen in Navigation gelb, wenn die Maus sich darüber befindet */
+    transform: scale(1.5);
+    /*hervorheben wenn man drüber schwebt*/
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    /* färbt Verlinkungen in Navigation gelb, wenn die Maus sich darüber befindet */
+    transform: scale(1.5);
+    /*hervorheben wenn man drüber schwebt*/
+}
+
+.fa-instagram {
+    background: grey;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: grey;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: grey;
+    color: white;
+}
+
+.fa-arrow-up {
+    background: rgb(241, 160, 37);
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 5px 5px 10px rgb(51, 49, 49);
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    width: 200px;
+    right: 170px;
+    position: absolute;
+    padding: 0px 0px 50px 200px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: right;
+    text-shadow: 3px 2px 5px rgb(51, 49, 49);
+}
+
+h3 {
+    color: rgba(255, 0, 0, 0.644);
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rechts {
+    width: 300px;
+    right: 400px;
+    position: absolute;
+    padding: 5px 170px 300px 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    text-align: justify;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+#rechts2 {
+    width: 300px;
+    right: 400px;
+    position: absolute;
+    padding: 5px 170px 300px 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#Reisen {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 2px 5px rgb(51, 49, 49);
+    font-size: 25px;
+    padding: 0px 0px 0px 190px;
+}
+
+#montenegro {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 2px 5px whitesmoke;
+    font-size: 20px;
+    padding: 0px 0px 0px 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rhodos {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 2px 5px whitesmoke;
+    font-size: 20px;
+    padding: 0px 0px 0px 300px;
+}
+
+#italien {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 2px 5px whitesmoke;
+    font-size: 20px;
+    padding: 0px 0px 0px 140px;
+}
+
+#prag {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 2px 5px whitesmoke;
+    font-size: 20px;
+    padding: 0px 0px 0px 330px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: grey;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(241, 160, 37);
+    padding: 20px;
+}
+
+#Fußzeile {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    clear: both;
+    background-color: grey;
+    border-top: 2px solid rgb(241, 160, 37);
+}
