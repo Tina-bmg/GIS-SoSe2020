@@ -5,36 +5,35 @@ interface RotweinProdukte {
     _img: string;
     _name: string;
     _beschreibung: string;
-    _preis: string;
+    _preis: number;
     
 }
 let rotwein1: RotweinProdukte = { 
             _img: "Jaspis_Chardonney.png", 
             _name: "Jaspis Chardonnay trocken 2017", 
             _beschreibung: "Sein einladendes und frisches Bukett erinnert an Birnen, Pfirsich und vage an Ananas.", 
-            _preis: "69,80€"
+            _preis: 69.90
            
         };
 let rotwein2: RotweinProdukte = { 
             _img: "Jaspis_Pinot_Noir", 
             _name: "Jaspis Pinot Noir trocken 2017", 
             _beschreibung: "Kaum ins Glas gekommen, entfaltet er ein sattes Bukett nach reifer Kirsche, unterstrichen von einer rauchigen Note.", 
-            _preis: "45,00€"
+            _preis: 45.00
           
         };
 let rotwein3: RotweinProdukte = { 
             _img: "Jaspis_Rotwein.png", 
             _name: "Jaspis Syrah trocken 2017", 
             _beschreibung: "In dunklem Kirschrot mit violetten Aufhellungen am Rande präsentiert sich der Ziereisen Jaspis Syrah trocken im Weinglas. ", 
-            _preis: "50,00€"
-           
+            _preis: 50.00           
         };
 
 let rotwein4: RotweinProdukte = { 
             _img: "Jaspis_Gutedel.jpg", 
             _name: "Jaspis roter Gutedel trocken unterirdisch 2015", 
             _beschreibung: "015 Jaspis Amphore Roter Gutedel unterirdisch, unfiltriert, ungeschwefelt Weingut Ziereisen", 
-            _preis: "39,99€"
+            _preis: 39.99
          
         };
     
@@ -78,21 +77,21 @@ interface FruchtProdukte {
         _img: string;
         _name: string;
         _beschreibung: string;
-         _preis: string;
+         _preis: number;
         
 }
 let frucht1: FruchtProdukte = { 
           _img: "Yuzu.jpg", 
           _name: "Japanische Yuzu Zitrone", 
          _beschreibung: "Yuzu, die japanische Zitrone, ist eine aromatische Frucht mit einmaligem Duft,eine perfekte Mischung aus Limette, mit Nuancen von Grapefruit und Mandarine", 
-                        _preis: "30,00€"
+                        _preis: 30.00
                         
 };
 let frucht2: FruchtProdukte = { 
           _img: "Zucchiniblüte.jpg", 
           _name: "Zucchiniblüte", 
           _beschreibung: "Die Blüten sind im rohen Zustand sehr zart und werden beim Backen etwas fester und schmecken leicht knusprig und blumig.", 
-          _preis: "32,85€ pro 40g"
+          _preis: 32.85
                         
                      };
 
@@ -136,21 +135,20 @@ interface FleischProdukte {
                 _img: string;
                 _name: string;
                 _beschreibung: string;
-                 _preis: string;
+                 _preis: number;
                 
         }
 let fleisch1: FleischProdukte = { 
               _img: "Wagyu_Rind.jpg", 
               _name: "Kobe-Wagyu Rind", 
               _beschreibung: "Das wertvollste Fleisch der Welt stammt aus Japan: Original Wagyu-Rinder zeichnen sich nicht nur durch den hohen Marmorierungsgrad ihres Fleisches aus.", 
-              _preis: "498,00€ pro Kg"
-                         
+              _preis: 498.00                         
         };
 let fleisch2: FleischProdukte = { 
                 _img: "2.jpg", 
                 _name: "Kobe Bee", 
                 _beschreibung: "Das Roastbeef aus dem hinteren Teil des Rinderrückens ist das Teilstück aus dem die allseits beliebten Rumpsteaks beziehungsweise Strip Loins geschnitten werden.", 
-                _preis: "429,00€ pro Kg"
+                _preis: 429.00
                                 
                              };
         
@@ -193,21 +191,21 @@ interface FischProdukte {
             _img: string;
             _name: string;
             _beschreibung: string;
-            _preis: string;
+            _preis: number;
                         
                 }
 let fisch1:  FischProdukte = { 
             _img: "Hummer2.jpg", 
             _name: "Hummer", 
             _beschreibung: "Hummer schmeckt angenehm nach Meer und ein bisschen wie Garnelen oder Languste, allerdings mit einer ganz eigenen Note und noch delikater.", 
-            _preis: "65,00€ pro Kg"
+            _preis: 65.00
                                         
                 };
 let fisch2:  FischProdukte = { 
             _img: "schwarzer-kaviar_4.jpg", 
             _name: "Schwarzer Kavier von Royal", 
             _beschreibung: "Kaviar schmeckt sehr zart und fein-sahnig, Asetra-Kaviar eher nussig, sein Korn ist fester und knackiger, Sevruga-Kaviar dagegen zeichnet sich durch seinen intensiven, fein-würzigen Geschmack aus.", 
-            _preis: "1580,00€ pro Kg"
+            _preis: 1580.00
                                         
                                      };
                 
@@ -249,21 +247,21 @@ interface TrüffelPodukte {
             _img: string;
             _name: string;
             _beschreibung: string;
-            _preis: string;
+            _preis: number;
                                 
                         }
 let trüffel1:  TrüffelPodukte = { 
                 _img: "Trüffel.jpg", 
                 _name: "Perigold Trüffel", 
                 _beschreibung: "Die Perigord Trüffel hat im Gegensatz zur Alba Trüffel einen dezenten aromatischen Geruch, dafür aber einen intensiven Geschmack. Der Geruch ist mit einer erdigen, an den Wald erinnernden sowie einer leicht süßlichen Moschusnote, in sich schon außergewöhnlich.", 
-                _preis: "1,60€ pro g"
+                _preis: 1.60
                                                 
                         };
 let trüffel2:  TrüffelPodukte = { 
                 _img: "weisser-albatrueffel.jpg", 
                 _name: "Albatrüffel", 
                 _beschreibung: "Albatrüffeln haben ein Aroma, welches intensiv nach Knoblauch, Schalotten und Weichkäse riecht. Trüffelsucher machen sich meist nachts auf die Suche nach der Tuber Magnatum, da dann der Geruch durch die auf den Boden sinkende Feuchtigkeit sehr intesiv ist. ", 
-                _preis: "4,20€ pro g"
+                _preis: 4.20
                                                 
                                              };
                         
