@@ -267,10 +267,6 @@
             top: 0px;
             height: 150px;
         }
-        #Bild {
-            position: center;
-            width: 50px;
-        }
         .zwischenstrich {
             background: rgb(172, 24, 24);
             border: none;
@@ -482,10 +478,6 @@
             width: 100%;
             margin-left: auto;
             margin-right: auto;
-        }
-        #Bild {
-            position: center;
-            width: 10px;
         }
         #navigationsbalken {
             background-color: white;
