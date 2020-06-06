@@ -75,7 +75,7 @@
         }
         #produkt {
             display: inline-grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto
         }
         h1 {
             color: rgb(172, 24, 24);
@@ -178,6 +178,14 @@
             border-radius: 10px;
             background-color: rgb(172, 24, 24);
             padding: 5px;
+        }
+        #anzahlblase {
+            background-color: rgb(255, 255, 255);
+            border-radius: 30%;
+            margin-top: 20px;
+            width: 20px;
+            height: 20px;
+            margin-right: 2px;
         }
     }
     
