@@ -2,28 +2,28 @@
 var Produkt;
 (function (Produkt) {
     let rotwein1 = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Chardonney.png",
         _name: "Jaspis Chardonnay trocken 2017",
         _beschreibung: "Sein einladendes und frisches Bukett erinnert an Birnen, Pfirsich und vage an Ananas.",
         _preis: 69.90
     };
     let rotwein2 = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Pinot_Noir.png",
         _name: "Jaspis Pinot Noir trocken 2017",
         _beschreibung: "Kaum ins Glas gekommen, entfaltet er ein sattes Bukett nach reifer Kirsche, unterstrichen von einer rauchigen Note.",
         _preis: 45.00
     };
     let rotwein3 = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Rotwein.png",
         _name: "Jaspis Syrah trocken 2017",
         _beschreibung: "In dunklem Kirschrot mit violetten Aufhellungen am Rande präsentiert sich der Ziereisen Jaspis Syrah trocken im Weinglas. ",
         _preis: 50.00
     };
     let rotwein4 = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Gutedel.jpg",
         _name: "Jaspis roter Gutedel trocken unterirdisch 2015",
         _beschreibung: "015 Jaspis Amphore Roter Gutedel unterirdisch, unfiltriert, ungeschwefelt Weingut Ziereisen",
@@ -121,7 +121,7 @@ var Produkt;
                 document.getElementById("produkt" + _index)?.appendChild(_newButton);
                 break;
             case "Feinkost":
-                document.getElementById("Feibkost")?.appendChild(_newDiv);
+                document.getElementById("Feinkost")?.appendChild(_newDiv);
                 document.getElementById("produkt" + _index)?.appendChild(_newImg);
                 document.getElementById("produkt" + _index)?.appendChild(_newH3);
                 document.getElementById("produkt" + _index)?.appendChild(_newP);
@@ -151,4 +151,28 @@ var Produkt;
         document.getElementById("anzahlblase")?.appendChild(zahlAnzeige);
     }
 })(Produkt || (Produkt = {}));
+//Ein und ausblenden der Kategorien Feinkost/Wein
+function handleCategoryClick(_click) {
+    switch (this.getAttribute("id")) {
+        case "Weinbutton":
+            Wein();
+            break;
+        case "Feinkostbutton":
+            Feinkost();
+            break;
+    }
+    function Wein() {
+        document.getElementById("Wein").style.display = "inline-grid";
+        document.getElementById("Feinkost").style.display = "none";
+    }
+    function Feinkost() {
+        document.getElementById("Feinkost").style.display = "inline-grid";
+        document.getElementById("Wein").style.display = "none";
+    }
+}
+//neue Varialbe + Verlinkung zu den Button
+let weinAnzeigen = document.querySelector("#Weinbutton");
+weinAnzeigen.addEventListener("click", handleCategoryClick.bind(weinAnzeigen));
+let feinkostAnzeigen = document.querySelector("#Feinkostbutton");
+feinkostAnzeigen.addEventListener("click", handleCategoryClick.bind(feinkostAnzeigen));
 //# sourceMappingURL=script.js.map

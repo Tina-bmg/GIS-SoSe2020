@@ -10,7 +10,7 @@ namespace Produkt {
 
     }
     let rotwein1: Produkt = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Chardonney.png",
         _name: "Jaspis Chardonnay trocken 2017",
         _beschreibung: "Sein einladendes und frisches Bukett erinnert an Birnen, Pfirsich und vage an Ananas.",
@@ -18,7 +18,7 @@ namespace Produkt {
 
     };
     let rotwein2: Produkt = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Pinot_Noir.png",
         _name: "Jaspis Pinot Noir trocken 2017",
         _beschreibung: "Kaum ins Glas gekommen, entfaltet er ein sattes Bukett nach reifer Kirsche, unterstrichen von einer rauchigen Note.",
@@ -26,7 +26,7 @@ namespace Produkt {
 
     };
     let rotwein3: Produkt = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Rotwein.png",
         _name: "Jaspis Syrah trocken 2017",
         _beschreibung: "In dunklem Kirschrot mit violetten Aufhellungen am Rande präsentiert sich der Ziereisen Jaspis Syrah trocken im Weinglas. ",
@@ -34,7 +34,7 @@ namespace Produkt {
     };
 
     let rotwein4: Produkt = {
-        _kategorie: "Weine",
+        _kategorie: "Wein",
         _img: "Jaspis_Gutedel.jpg",
         _name: "Jaspis roter Gutedel trocken unterirdisch 2015",
         _beschreibung: "015 Jaspis Amphore Roter Gutedel unterirdisch, unfiltriert, ungeschwefelt Weingut Ziereisen",
@@ -166,7 +166,7 @@ namespace Produkt {
                 break;
 
             case "Feinkost":
-                document.getElementById("Feibkost")?.appendChild(_newDiv);
+                document.getElementById("Feinkost")?.appendChild(_newDiv);
                 document.getElementById("produkt" + _index)?.appendChild(_newImg);
                 document.getElementById("produkt" + _index)?.appendChild(_newH3);
                 document.getElementById("produkt" + _index)?.appendChild(_newP);
@@ -201,12 +201,41 @@ namespace Produkt {
         document.getElementById("anzahlblase")?.appendChild(zahlAnzeige);
 
     }
-    
-
-
-
-
 
 }
+//Ein und ausblenden der Kategorien Feinkost/Wein
+function handleCategoryClick(this: HTMLDivElement, _click: MouseEvent): void {
+    switch (this.getAttribute("id")) {
+        case "Weinbutton":
+            Wein();
+            break;
+        case "Feinkostbutton":
+            Feinkost();
+            break;
+    }
+    function Wein(): void {
+        (<HTMLElement>document.getElementById("Wein")).style.display = "inline-grid";
+        (<HTMLElement>document.getElementById("Feinkost")).style.display = "none";
+
+    }
+
+    function Feinkost(): void {
+        (<HTMLElement>document.getElementById("Feinkost")).style.display = "inline-grid";
+        (<HTMLElement>document.getElementById("Wein")).style.display = "none";
+
+    }
+}
+//neue Varialbe + Verlinkung zu den Button
+let weinAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#Weinbutton");
+weinAnzeigen.addEventListener("click", handleCategoryClick.bind(weinAnzeigen));
+
+let feinkostAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#Feinkostbutton");
+feinkostAnzeigen.addEventListener("click", handleCategoryClick.bind(feinkostAnzeigen));
+          
+   
+
+
+
+
 
 
