@@ -70,12 +70,24 @@
             margin-left: -127px;
             margin-right: 200px;
         }
-        .produktbild {
+        #Wein img {
+            width: 10%;
+        }
+        #Feinkost img {
             width: 30%;
         }
-        #produkt {
-            display: inline-grid;
-            grid-template-columns: auto auto auto auto;
+        #Feinkost,
+        #Wein {
+            display: inline-block;
+            grid-template-columns: auto;
+            width: auto;
+        }
+        #produkte1,
+        #produkte2 {
+            display: inline-block;
+            width: auto;
+            margin-top: auto;
+            margin-bottom: auto;
         }
         h1 {
             color: rgb(172, 24, 24);
@@ -98,6 +110,7 @@
             margin-right: 200px;
             font-size: 20px;
             text-align: left;
+            font-size: 50px;
         }
         .Einkaufswagen {
             color: white;
@@ -107,7 +120,7 @@
             margin: auto;
             transition-duration: 0.4s;
             cursor: pointer;
-            padding: 8px 15px 50px 50px;
+            padding: 8px 15px;
             font-size: 12px;
             border: white;
         }
@@ -178,6 +191,14 @@
             border-radius: 10px;
             background-color: rgb(172, 24, 24);
             padding: 5px;
+        }
+        #anzahlblase {
+            background-color: white;
+            border-radius: 30%;
+            margin-top: 20px;
+            width: 20px;
+            height: 20px;
+            margin-right: 2px;
         }
     }
     
@@ -256,8 +277,8 @@
             margin-left: -127px;
             margin-right: 200px;
         }
-        .produktbild {
-            width: 30%;
+        #Wein {
+            width: 5%;
         }
         #produkt {
             display: inline-grid;
@@ -408,10 +429,6 @@
         }
         .produktbild {
             width: 30%;
-        }
-        #produkt {
-            display: inline-grid;
-            grid-template-columns: auto auto;
         }
         #navigationsbalken {
             background-color: white;
