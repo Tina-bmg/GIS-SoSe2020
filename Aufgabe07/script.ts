@@ -54,14 +54,14 @@ namespace Produkt {
             let _newDiv: HTMLDivElement = document.createElement("div");
             _newDiv.setAttribute("class", "div");
             _newDiv.setAttribute("id", "produkt" + _index);
-            //document.getElementById("Wein")?.appendChild(_newDiv);
+            document.getElementById("Wein")?.appendChild(_newDiv);
 
             //Produktbild hinzufügen +A
             let _newImg: HTMLElement = document.createElement("img");
             _newImg.setAttribute("src", produkt[_index]._img);
             _newImg.setAttribute("alt", "produkt");
             _newImg.setAttribute("class", "produktbild");
-            //document.getElementById("produkt" + _index)?.appendChild(_newImg);
+            document.getElementById("produkt" + _index)?.appendChild(_newImg);
 
 
             //Produktbezeichnung hinzufügen
@@ -145,18 +145,19 @@ namespace Produkt {
                     Feinkost();
                     break;
             }
-            function Wein(): void {
-                (<HTMLElement>document.getElementById("Wein")).style.display = "inline-grid";
-                (<HTMLElement>document.getElementById("Feinkost")).style.display = "none";
-
-            }
-
-            function Feinkost(): void {
-                (<HTMLElement>document.getElementById("Feinkost")).style.display = "inline-grid";
-                (<HTMLElement>document.getElementById("Wein")).style.display = "none";
-
-            }
         }
+        function Wein(): void {
+            (<HTMLElement>document.getElementById("Wein")).style.display = "inline-grid";
+            (<HTMLElement>document.getElementById("Feinkost")).style.display = "none";
+
+        }
+
+        function Feinkost(): void {
+            (<HTMLElement>document.getElementById("Feinkost")).style.display = "inline-grid";
+            (<HTMLElement>document.getElementById("Wein")).style.display = "none";
+
+        }
+
         //neue Varialbe + Verlinkung zu den Button
 
         let weinAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#Weinbutton");

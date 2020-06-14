@@ -35,13 +35,13 @@ var Produkt;
             let _newDiv = document.createElement("div");
             _newDiv.setAttribute("class", "div");
             _newDiv.setAttribute("id", "produkt" + _index);
-            //document.getElementById("Wein")?.appendChild(_newDiv);
+            document.getElementById("Wein")?.appendChild(_newDiv);
             //Produktbild hinzufügen +A
             let _newImg = document.createElement("img");
             _newImg.setAttribute("src", produkt[_index]._img);
             _newImg.setAttribute("alt", "produkt");
             _newImg.setAttribute("class", "produktbild");
-            //document.getElementById("produkt" + _index)?.appendChild(_newImg);
+            document.getElementById("produkt" + _index)?.appendChild(_newImg);
             //Produktbezeichnung hinzufügen
             let _newH3 = document.createElement("h3");
             _newH3.innerHTML = produkt[_index]._name;
@@ -104,14 +104,14 @@ var Produkt;
                     Feinkost();
                     break;
             }
-            function Wein() {
-                document.getElementById("Wein").style.display = "inline-grid";
-                document.getElementById("Feinkost").style.display = "none";
-            }
-            function Feinkost() {
-                document.getElementById("Feinkost").style.display = "inline-grid";
-                document.getElementById("Wein").style.display = "none";
-            }
+        }
+        function Wein() {
+            document.getElementById("Wein").style.display = "inline-grid";
+            document.getElementById("Feinkost").style.display = "none";
+        }
+        function Feinkost() {
+            document.getElementById("Feinkost").style.display = "inline-grid";
+            document.getElementById("Wein").style.display = "none";
         }
         //neue Varialbe + Verlinkung zu den Button
         let weinAnzeigen = document.querySelector("#Weinbutton");
