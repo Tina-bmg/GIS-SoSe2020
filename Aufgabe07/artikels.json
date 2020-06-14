@@ -1,0 +1,85 @@
+[{
+        "_kategorie": "Wein",
+        "_img": "Jaspis_Chardonney.png",
+        "_name": "Jaspis Chardonnay trocken 2017",
+        "_beschreibung": "Sein einladendes und frisches Bukett erinnert an Birnen, Pfirsich und vage an Ananas.",
+        "_preis": 69.9
+    },
+    {
+        "_kategorie": "Wein",
+        "_img": "Jaspis_Pinot_Noir.png",
+        "_name": "Jaspis Pinot Noir trocken 2017",
+        "_beschreibung": "Kaum ins Glas gekommen, entfaltet er ein sattes Bukett nach reifer Kirsche, unterstrichen von einer rauchigen Note.",
+        "_preis": 45
+    },
+    {
+        "_kategorie": "Wein",
+        "_img": "Jaspis_Rotwein.png",
+        "_name": "Jaspis Syrah trocken 2017",
+        "_beschreibung": "In dunklem Kirschrot mit violetten Aufhellungen am Rande präsentiert sich der Ziereisen Jaspis Syrah trocken im Weinglas. ",
+        "_preis": 50
+    },
+    {
+        "_kategorie": "Wein",
+        "_img": "Jaspis_Gutedel.jpg",
+        "_name": "Jaspis roter Gutedel trocken unterirdisch 2015",
+        "_beschreibung": "015 Jaspis Amphore Roter Gutedel unterirdisch, unfiltriert, ungeschwefelt Weingut Ziereisen",
+        "_preis": 39.99
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "Yuzu.jpg",
+        "_name": "Japanische Yuzu Zitrone",
+        "_beschreibung": "Yuzu, die japanische Zitrone, ist eine aromatische Frucht mit einmaligem Duft,eine perfekte Mischung aus Limette, mit Nuancen von Grapefruit und Mandarine",
+        "_preis": 30
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "Zucchiniblüte.jpg",
+        "_name": "Zucchiniblüte",
+        "_beschreibung": "Die Blüten sind im rohen Zustand sehr zart und werden beim Backen etwas fester und schmecken leicht knusprig und blumig.",
+        "_preis": 32.85
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "Wagyu_Rind.jpg",
+        "_name": "Kobe-Wagyu Rind",
+        "_beschreibung": "Das wertvollste Fleisch der Welt stammt aus Japan: Original Wagyu-Rinder zeichnen sich nicht nur durch den hohen Marmorierungsgrad ihres Fleisches aus.",
+        "_preis": 498
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "2.jpg",
+        "_name": "Kobe Bee",
+        "_beschreibung": "Das Roastbeef aus dem hinteren Teil des Rinderrückens ist das Teilstück aus dem die allseits beliebten Rumpsteaks beziehungsweise Strip Loins geschnitten werden.",
+        "_preis": 429
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "Hummer2.jpg",
+        "_name": "Hummer",
+        "_beschreibung": "Hummer schmeckt angenehm nach Meer und ein bisschen wie Garnelen oder Languste, allerdings mit einer ganz eigenen Note und noch delikater.",
+        "_preis": 65
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "schwarzer-kaviar_4.jpg",
+        "_name": "Schwarzer Kavier von Royal",
+        "_beschreibung": "Kaviar schmeckt sehr zart und fein-sahnig, Asetra-Kaviar eher nussig, sein Korn ist fester und knackiger, Sevruga-Kaviar dagegen zeichnet sich durch seinen intensiven, fein-würzigen Geschmack aus.",
+        "_preis": 1580
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "Trüffel.jpg",
+        "_name": "Perigold Trüffel",
+        "_beschreibung": "Die Perigord Trüffel hat im Gegensatz zur Alba Trüffel einen dezenten aromatischen Geruch, dafür aber einen intensiven Geschmack. Der Geruch ist mit einer erdigen, an den Wald erinnernden sowie einer leicht süßlichen Moschusnote, in sich schon außergewöhnlich.",
+        "_preis": 1.6
+    },
+    {
+        "_kategorie": "Feinkost",
+        "_img": "weisser-albatrueffel.jpg",
+        "_name": "Albatrüffel",
+        "_beschreibung": "Albatrüffeln haben ein Aroma, welches intensiv nach Knoblauch, Schalotten und Weichkäse riecht. Trüffelsucher machen sich meist nachts auf die Suche nach der Tuber Magnatum, da dann der Geruch durch die auf den Boden sinkende Feuchtigkeit sehr intesiv ist. ",
+        "_preis": 4.2
+    }
+]
