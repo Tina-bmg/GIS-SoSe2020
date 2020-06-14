@@ -35,30 +35,34 @@ namespace Produkt {
     function erstelleInhalt(_inputArticle: Produkt): void {
         //Div erstellen
       
-        let newDiv = document.createElement("div");
+        
+        let newDiv: HTMLDivElement = document.createElement("div");
         contentDiv.appendChild(newDiv);
         newDiv.id = _inputArticle._name;
         console.log(newDiv.id);
         //Bild erstellen
         
-        let bildElement = document.createElement("img");
+      
+        let bildElement: HTMLImageElement = document.createElement("img");
         newDiv.appendChild(bildElement);
         bildElement.src = _inputArticle._img;
         console.log(bildElement);
         //Namen geben
      
-        let name = document.createElement("h3");
+        
+        let name: HTMLParagraphElement = document.createElement("h3");
         newDiv.appendChild(name);
         name.innerHTML = _inputArticle._name;
         //Preis festlegen
     
-        let price = document.createElement("p");
+        
+        let price: HTMLParagraphElement = document.createElement("p");
         newDiv.appendChild(price);
         price.innerHTML = "" + _inputArticle._preis;
         newDiv.setAttribute("preis", price.innerHTML);
         //Button
        
-        let kaufen = document.createElement("button");
+        let kaufen: HTMLButtonElement  = document.createElement("button");
         newDiv.appendChild(kaufen);
         kaufen.innerHTML = "Löschen";
         kaufen.addEventListener("click", handleRemoveArticle.bind(_inputArticle));

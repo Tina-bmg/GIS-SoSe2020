@@ -54,14 +54,14 @@ namespace Produkt {
             let _newDiv: HTMLDivElement = document.createElement("div");
             _newDiv.setAttribute("class", "div");
             _newDiv.setAttribute("id", "produkt" + _index);
-            document.getElementById("Wein")?.appendChild(_newDiv);
+            //document.getElementById("Wein")?.appendChild(_newDiv);
 
             //Produktbild hinzufügen +A
             let _newImg: HTMLElement = document.createElement("img");
             _newImg.setAttribute("src", produkt[_index]._img);
             _newImg.setAttribute("alt", "produkt");
             _newImg.setAttribute("class", "produktbild");
-            document.getElementById("produkt" + _index)?.appendChild(_newImg);
+            //document.getElementById("produkt" + _index)?.appendChild(_newImg);
 
 
             //Produktbezeichnung hinzufügen
@@ -83,7 +83,7 @@ namespace Produkt {
             let _newButton: HTMLButtonElement = document.createElement("button");
             _newButton.innerHTML = "Jetzt kaufen";
             document.getElementById("produkt" + _index)?.appendChild(_newButton);
-           
+
             _newButton.setAttribute("preis", produkt[_index]._preis.toString());
 
             //"Button" in Warenkorb
@@ -91,9 +91,6 @@ namespace Produkt {
             _newButton.setAttribute("preis", produkt[_index]._preis.toString());
             _newButton.setAttribute("name", produkt[_index]._name);
             _newButton.setAttribute("img", produkt[_index]._img);
-           
-           
-
             document.getElementById("artikel" + _index)?.appendChild(_newButton);
             document.getElementById("artikel" + _index)?.appendChild(_newButton);
 
