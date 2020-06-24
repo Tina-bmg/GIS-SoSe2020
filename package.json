@@ -3,18 +3,16 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "dependencies": {
-        "@types/node": "^14.0.13"
-    },
+    "dependencies": {},
     "devDependencies": {},
     "scripts": {
-        "start": "node Aufgabe08/main.js"
+        "start": "node Aufgabe08/server.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Tina-bmg/GIS-SoSe2020.git"
     },
-    "author": "Tina Baumgärtel",
+    "author": "tina",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/Tina-bmg/GIS-SoSe2020/issues"

@@ -13,5 +13,6 @@ namespace Aufgabe08 {
             console.log("name: " + entry[0]);
             console.log("value: " + entry[1]);
         }
-    }
+    
+}
 }
