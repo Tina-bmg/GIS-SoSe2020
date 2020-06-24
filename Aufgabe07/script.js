@@ -65,7 +65,6 @@ var Produkt;
             _newButton.setAttribute("name", produkt[_index]._name);
             _newButton.setAttribute("img", produkt[_index]._img);
             document.getElementById("artikel" + _index)?.appendChild(_newButton);
-            document.getElementById("artikel" + _index)?.appendChild(_newButton);
             switch (produkt[_index]._kategorie) {
                 case "Wein":
                     let getContainerWein = document.getElementById("Wein");
