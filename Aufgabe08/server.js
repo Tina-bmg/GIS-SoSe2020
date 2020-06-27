@@ -23,6 +23,7 @@ var A08Server;
         _response.setHeader("content-type", "text/html; charset=utf-8"); //gibt die Zeichncordierung des Dokuments an und gibt den Conten-Typ an
         _response.setHeader("Access-Control-Allow-Origin", "*"); // gibt an, ob die Antwort mit dem Anfordern von Code vom angegebenen Ursprung geteilt werden kann.
         _response.write(_request.url); // als Anforderungs-Antwort-Protokoll zwischen einem Client und einem Server.
+        console.log(_request.url); //Teilaufgabe, die request.url wird in der Serverkonsole ausgegeben
         _response.end();
     }
 })(A08Server = exports.A08Server || (exports.A08Server = {}));
